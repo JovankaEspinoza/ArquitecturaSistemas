@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Tareas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: {{ bg_color }};
+        }
+        h1 {
+            color: #333;
+        }
+        .completada {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .boton {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+
+    <ul>
+        {% for task in tasks %}
+            <li class="{{ 'completada' if task.completed }}">
+                {{ task.description }}
+                {% if not task.completed %}
+                    <a class="boton" href="/tasks/{{ task.id }}/complete">✅ Completar</a>
+                {% endif %}
+                <a class="boton" href="/tasks/{{ task.id }}/delete">❌ Eliminar</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <form action="/tasks/add" method="post">
+        <input type="text" name="description" placeholder="Nueva tarea" required>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <p>🖥️ Servidor atendiendo esta solicitud: <strong>Puerto {{ port }}</strong></p>
+</body>
+</html>
