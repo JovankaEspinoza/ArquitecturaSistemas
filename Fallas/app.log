@@ -48,3 +48,91 @@
 2025-06-25 16:56:50,771 - INFO - 127.0.0.1 - - [25/Jun/2025 16:56:50] "[31m[1mGET /cause_error/400 HTTP/1.1[0m" 400 -
 2025-06-25 16:56:50,778 - INFO - 127.0.0.1 - - [25/Jun/2025 16:56:50] "[33mGET /cause_error/404 HTTP/1.1[0m" 404 -
 2025-06-25 16:56:50,781 - INFO - 127.0.0.1 - - [25/Jun/2025 16:56:50] "[35m[1mGET /cause_error/500 HTTP/1.1[0m" 500 -
+2025-06-26 20:23:43,818 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:43,818 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:43,890 - INFO -  * Restarting with stat
+2025-06-26 20:23:43,893 - INFO -  * Restarting with stat
+2025-06-26 20:23:45,085 - WARNING -  * Debugger is active!
+2025-06-26 20:23:45,085 - WARNING -  * Debugger is active!
+2025-06-26 20:23:45,093 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:45,094 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:46,177 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:46,179 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:46,209 - INFO -  * Restarting with stat
+2025-06-26 20:23:46,211 - INFO -  * Restarting with stat
+2025-06-26 20:23:46,368 - WARNING -  * Debugger is active!
+2025-06-26 20:23:46,369 - WARNING -  * Debugger is active!
+2025-06-26 20:23:46,374 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:46,375 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:48,477 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:48,478 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:48,506 - INFO -  * Restarting with stat
+2025-06-26 20:23:48,507 - INFO -  * Restarting with stat
+2025-06-26 20:23:48,664 - WARNING -  * Debugger is active!
+2025-06-26 20:23:48,665 - WARNING -  * Debugger is active!
+2025-06-26 20:23:48,671 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:48,671 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:54,906 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:54,907 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/app.py', reloading
+2025-06-26 20:23:54,933 - INFO -  * Restarting with stat
+2025-06-26 20:23:54,934 - INFO -  * Restarting with stat
+2025-06-26 20:23:55,088 - WARNING -  * Debugger is active!
+2025-06-26 20:23:55,091 - WARNING -  * Debugger is active!
+2025-06-26 20:23:55,094 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:23:55,097 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:02,338 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:02,339 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:02,367 - INFO -  * Restarting with stat
+2025-06-26 20:24:02,367 - INFO -  * Restarting with stat
+2025-06-26 20:24:02,527 - WARNING -  * Debugger is active!
+2025-06-26 20:24:02,533 - WARNING -  * Debugger is active!
+2025-06-26 20:24:02,535 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:02,538 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:03,603 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:03,607 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:03,631 - INFO -  * Restarting with stat
+2025-06-26 20:24:03,633 - INFO -  * Restarting with stat
+2025-06-26 20:24:03,791 - WARNING -  * Debugger is active!
+2025-06-26 20:24:03,794 - WARNING -  * Debugger is active!
+2025-06-26 20:24:03,799 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:03,800 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:06,931 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:06,933 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:06,960 - INFO -  * Restarting with stat
+2025-06-26 20:24:06,962 - INFO -  * Restarting with stat
+2025-06-26 20:24:07,112 - WARNING -  * Debugger is active!
+2025-06-26 20:24:07,116 - WARNING -  * Debugger is active!
+2025-06-26 20:24:07,119 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:07,121 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:09,214 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:09,215 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:09,240 - INFO -  * Restarting with stat
+2025-06-26 20:24:09,241 - INFO -  * Restarting with stat
+2025-06-26 20:24:09,395 - WARNING -  * Debugger is active!
+2025-06-26 20:24:09,398 - WARNING -  * Debugger is active!
+2025-06-26 20:24:09,401 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:09,403 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:13,558 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:13,560 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:13,588 - INFO -  * Restarting with stat
+2025-06-26 20:24:13,590 - INFO -  * Restarting with stat
+2025-06-26 20:24:13,757 - WARNING -  * Debugger is active!
+2025-06-26 20:24:13,760 - WARNING -  * Debugger is active!
+2025-06-26 20:24:13,763 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:13,766 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:16,899 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:16,902 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:16,926 - INFO -  * Restarting with stat
+2025-06-26 20:24:16,929 - INFO -  * Restarting with stat
+2025-06-26 20:24:17,086 - WARNING -  * Debugger is active!
+2025-06-26 20:24:17,090 - WARNING -  * Debugger is active!
+2025-06-26 20:24:17,092 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:17,095 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:20,206 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:20,208 - INFO -  * Detected change in '/Users/jovankaespinoza/Desktop/ArquitecturaSistemas/Fallas/load_balancer.py', reloading
+2025-06-26 20:24:20,234 - INFO -  * Restarting with stat
+2025-06-26 20:24:20,235 - INFO -  * Restarting with stat
+2025-06-26 20:24:20,394 - WARNING -  * Debugger is active!
+2025-06-26 20:24:20,397 - WARNING -  * Debugger is active!
+2025-06-26 20:24:20,401 - INFO -  * Debugger PIN: 642-474-712
+2025-06-26 20:24:20,402 - INFO -  * Debugger PIN: 642-474-712

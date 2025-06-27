@@ -6,12 +6,12 @@ app = Flask(__name__)
 
 # Configuración del sistema de logging
 logging.basicConfig(
-    level=logging.INFO,  # Configurar el nivel de logging (INFO, DEBUG, ERROR, etc.)
-    format='%(asctime)s - %(levelname)s - %(message)s',  # Definir el formato de los logs
+    level=logging.INFO,  #
+    format='%(asctime)s - %(levelname)s - %(message)s',  
     handlers=[logging.FileHandler('app.log'), logging.StreamHandler()]  # Guardar logs en archivo y en consola
 )
 
-# Crear un logger para capturar los logs
+
 logger = logging.getLogger(__name__)
 
 # Listas para llevar un registro de los errores
@@ -49,7 +49,7 @@ def error_stats_view():
         'recent_errors': error_log[-10:]
     })
 
-# Endpoint para simular errores (simulación correcta de los errores)
+
 @app.route('/cause_error/<error_type>')
 def cause_error(error_type):
     if error_type == "400":

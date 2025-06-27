@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 # Crear una instancia de la aplicación Flask
 app = Flask(__name__)
 
-# Lista de servidores Flask
+# lista de servidores 
 servers = ["http://127.0.0.1:5001", "http://127.0.0.1:5002"]
 server_pool = cycle(servers)
 
@@ -20,7 +20,7 @@ def load_balance(path):
     url = f"{server}/{path}"
 
     try:
-        # Realiza la petición al servidor elegido
+        
         if request.method == 'GET':
             response = requests.get(url, params=request.args)
         elif request.method == 'POST':
@@ -30,16 +30,16 @@ def load_balance(path):
         elif request.method == 'DELETE':
             response = requests.delete(url)
         
-        # Verificar si la respuesta contiene datos
+        
         if response.text:
             try:
-                response_json = response.json()  # Intenta analizar como JSON
+                response_json = response.json()  
                 return jsonify(response_json), response.status_code
             except requests.exceptions.JSONDecodeError:
-                # Si la respuesta no es JSON válido, regresa la respuesta como está
+    
                 return response.text, response.status_code
         else:
-            # Si la respuesta está vacía, manejar el error adecuadamente
+          
             return jsonify({"error": "Empty response from server"}), 500
 
     except requests.exceptions.RequestException as e:
